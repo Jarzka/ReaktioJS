@@ -1,4 +1,4 @@
-Reaktio.js is a small library which allows you to create a value that can be observed. If the value is changed, for whatever reason, all observer are notified asynchronously. Observer can be a function or another value which is updated.
+Reaktio.js is a small library which allows you to create a value that can be observed. If the value is changed, for whatever reason, all observers are notified asynchronously. Observer can be a function or another value which is updated.
 
 Example code:
 
