@@ -1,5 +1,5 @@
 // Reactive value is a value which can be observed.
-// If the value is changed, for whatever reason, all observer are notified asynchronously.
+// If the value is changed, for whatever reason, all observers are notified asynchronously.
 var createReactiveValue = function(initialValue) {
     return {
         "observers": [], // Call these functions with a new value when it has been set
